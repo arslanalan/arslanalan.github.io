@@ -2,3 +2,35 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+/*Centering navbar content*/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/*Navbar logo */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 7px 15px;
+  width: auto;
+}
+
+.navbar-collapse {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    min-height: 100vh; /*covers all the screen when menu button clicked*/
+}
+
+
+@media only screen and (min-width: 768px) {
+    .navbar-collapse {
+        min-height: 1vh;
+    }
+}
