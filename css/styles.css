@@ -29,6 +29,12 @@ body {
     min-height: 100vh; /*covers all the screen when menu button clicked*/
 }
 
+/*make each columns have the same height in a row*/
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 /*==============================
   ==============================
@@ -40,8 +46,17 @@ body {
     padding-bottom: 7.5%;
 }
 
+.link-normalized a {
+    color: black;
+}
+
 .background-style1 {
     background-color: #fff;
+}
+
+.background-style2 {
+    background-color: #fafafa;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text-muted {
@@ -64,6 +79,7 @@ body {
     align to center vertically
   ==============================*/
 .vertical-center{
+    display: flex;
     align-items: center;
 }
 
