@@ -1,6 +1,7 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    padding-top: 50px;
 }
 
 /*Centering navbar content*/
@@ -26,6 +27,44 @@ body {
     box-shadow: none;
     -webkit-box-shadow: none;
     min-height: 100vh; /*covers all the screen when menu button clicked*/
+}
+
+
+/*==============================
+  ==============================
+     styles (custom classes)
+  ==============================
+  ==============================*/
+.padding-topbottom {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+.background-style1 {
+    background-color: #fff;
+}
+
+.text-muted {
+    color: #888;
+}
+
+.top-p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.header-h1 {
+    font-size: 2em !important;
+}
+
+
+
+/*==============================
+    align to center vertically
+  ==============================*/
+.vertical-center{
+    align-items: center;
 }
 
 
