@@ -50,6 +50,11 @@ body {
     padding-bottom: 7.5%;
 }
 
+.reduced-padding-topbottom {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 .link-normalized a {
     color: black;
 }
