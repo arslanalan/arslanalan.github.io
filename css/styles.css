@@ -64,6 +64,11 @@ body {
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
+.background-style4 {
+    background-color: #303030;
+    color: white;
+}
+
 .shadow-top {
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
@@ -86,7 +91,30 @@ body {
     font-size: 2em !important;
 }
 
+.header-h2 {
+    font-size: 1.75em !important;
+}
 
+.header-p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.style-form {
+    background-color: #282828;;
+    border: none;
+    color: #bbb;
+}
+
+.send-message-button {
+    width: 100%;
+    max-width: 400px;
+    min-height: 60px;
+    font-weight: 700;
+    font-size: 1.25em;
+}
 
 /*==============================
     align to center vertically
@@ -94,6 +122,41 @@ body {
 .vertical-center{
     display: flex;
     align-items: center;
+}
+
+.no-border {
+    border: none;
+}
+
+/*Social media icons*/
+/*change the appearance of icons*/
+.icon-white-style::before {
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #242943;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    width: 1.5em;
+}
+
+.display-inline {
+    display: inline;
+    margin-left: 1em;
+}
+
+.display-block {
+    display: block;
+    margin-top: 1.5em;
+    margin-left: 3.3em;
+}
+
+.split {
+    min-height: 30vh;
+    border-top: solid 1px rgba(212, 212, 255, 0.1);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 
